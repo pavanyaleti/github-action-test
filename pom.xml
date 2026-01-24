@@ -38,7 +38,7 @@
 						<muleVersion>${app.runtime}</muleVersion>
 						<releaseChannel>EDGE</releaseChannel>
 						<server>ca.anypoint.credentials</server>
-						<applicationName>my-github-action-test</applicationName>
+						<applicationName>${artifactId}</applicationName>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
 						<skipDeploymentVerification>${skipDeploymentVerification}</skipDeploymentVerification>
