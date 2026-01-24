@@ -15,7 +15,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<app.runtime>4.10.0</app.runtime>
+		<app.runtime>4.10.2:5e</app.runtime>
 		<mule.maven.plugin.version>4.6.1</mule.maven.plugin.version>
 	</properties>
 
@@ -37,7 +37,9 @@
 						<provider>MC</provider>
 						<environment>DEV</environment>
 						<target>Cloudhub-US-East-2</target>
+						<muleVersion>${app.runtime}</muleVersion>
 						<releaseChannel>EDGE</releaseChannel>
+						<javaVersion>17</javaVersion>
 						<server>ca.anypoint.credentials</server>
 						<applicationName>my-github-action-test</applicationName>
 						<replicas>1</replicas>
