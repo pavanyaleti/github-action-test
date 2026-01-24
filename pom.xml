@@ -37,7 +37,6 @@
 						<provider>MC</provider>
 						<environment>DEV</environment>
 						<target>Cloudhub-US-East-2</target>
-						<muleVersion>${app.runtime}</muleVersion>
 						<releaseChannel>EDGE</releaseChannel>
 						<server>ca.anypoint.credentials</server>
 						<applicationName>my-github-action-test</applicationName>
