@@ -106,7 +106,7 @@ jobs:
       with:
         name: artifacts
     
-    - name: Deploy to Sandbox
+    - name: Deploy to DEV
       run: |
         artifactName=$(ls *.jar | head -1)
         mvn deploy -DmuleDeploy \
