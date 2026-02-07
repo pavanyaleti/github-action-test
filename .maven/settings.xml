@@ -1,9 +1,13 @@
+<?xml version="1.0"?>
 <settings>
-    <servers>
-        <server>
-            <id>ca.anypoint.credentials</id>
-            <username>~~~Client~~~</username>
-            <password>${CA_CLIENT_ID}~?~${CA_CLIENT_SECRET}</password>
-        </server>
-    </servers>
+	<pluginGroups>
+		<pluginGroup>org.mule.tools</pluginGroup>
+	</pluginGroups>
+	<servers>
+		<server>
+		  <id>anypoint-exchange-v3</id>
+		  <username>~~~Client~~~</username>
+		  <password>${client.id}~?~${client.secret}</password>
+		</server>
+	</servers>
 </settings>
